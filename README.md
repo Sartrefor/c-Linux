@@ -18,7 +18,8 @@
 
 代码演示:
 -------------
-> void sort(int *a, int left, int right)
+···c
+void sort(int *a, int left, int right)
 {
     if(left >= right)/*如果左边索引大于或者等于右边的索引就代表已经整理完成一个组了*/
     {
@@ -51,6 +52,5 @@
     sort(a, i + 1, right);/*用同样的方式对分出来的右边的小组进行同上的做法*/
     /*当然最后可能会出现很多分左右，直到每一组的i = j 为止*/
 }
-
-
+```c
 
