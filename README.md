@@ -18,7 +18,7 @@
 
 代码演示:
 -------------
-···c
+```c
 void sort(int *a, int left, int right)
 {
     if(left >= right)/*如果左边索引大于或者等于右边的索引就代表已经整理完成一个组了*/
