@@ -52,5 +52,5 @@ void sort(int *a, int left, int right)
     sort(a, i + 1, right);/*用同样的方式对分出来的右边的小组进行同上的做法*/
     /*当然最后可能会出现很多分左右，直到每一组的i = j 为止*/
 }
-```c
+```
 
