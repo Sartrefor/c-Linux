@@ -53,4 +53,3 @@ void sort(int *a, int left, int right)
     /*当然最后可能会出现很多分左右，直到每一组的i = j 为止*/
 }
 ```
-
